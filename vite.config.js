@@ -13,7 +13,7 @@ export default defineConfig({
   root: 'src',          
   base: '/goit-js-hw-12/', 
   build: {
-    outDir: 'docs',  
+    outDir: '../dist',  
   },
   define: {
     global: 'window',
